@@ -9,7 +9,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Paprikas Csirke','Description of Paprikas Csirke','http://izeselet.hu/wp-content/uploads/2016/08/ad294b_3cfac344953e4d5da696dcdd195fb4ae.jpg_srb_p_1293_872_7.jpg?x86794')
+    new Recipe('Paprikas Csirke','Description of Paprikas Csirke','http://izeselet.hu/wp-content/uploads/2016/08/ad294b_3cfac344953e4d5da696dcdd195fb4ae.jpg_srb_p_1293_872_7.jpg?x86794'),
+    new Recipe('Paprikas Krumpli','Description of Paprikas Krumpli','http://izeselet.hu/wp-content/uploads/2016/08/ad294b_3cfac344953e4d5da696dcdd195fb4ae.jpg_srb_p_1293_872_7.jpg?x86794')
   ];
 
   constructor() { }
